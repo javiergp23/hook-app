@@ -1,8 +1,8 @@
-
+import { useFetch } from "../hooks"
 
 export const MultipleCustomHooks = () => {
 
-  fetch('https://pokeapi.co/api/v2/pokemon/1')
+  useFetch();
 
   return (
     <h1>MultipleCustomHooks</h1>
