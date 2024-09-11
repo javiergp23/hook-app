@@ -2,9 +2,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 
 export const useFetch = () => {
-
-
-
+    
     const [state, setState] = useState({
         data: null,
         isLoading: true,
@@ -14,6 +12,8 @@ export const useFetch = () => {
 
     useEffect (() => {
         getFetch();
+
+
     },[])
 
     const getFetch = async() => {
@@ -25,8 +25,10 @@ export const useFetch = () => {
     }
 
   return (
+    {    
     data: state.data,
     isLoading: state.isLoading,
     hasError: state.hasError,
+    }
   )
 }
