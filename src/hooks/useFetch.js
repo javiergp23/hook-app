@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 
 export const useFetch = () => {
-    
+    //creando el estado
     const [state, setState] = useState({
         data: null,
         isLoading: true,
@@ -15,7 +15,7 @@ export const useFetch = () => {
 
 
     },[])
-
+    //consumiendo la api con fetch
     const getFetch = async() => {
 
        const response = await fetch('https://pokeapi.co/api/v2/pokemon/1');
