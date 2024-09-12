@@ -9,7 +9,6 @@ export const MultipleCustomHooks = () => {
       <h1>MultipleCustomHooks</h1>
       <pre>Pokemon Info</pre>
     </>
-
   )
 }
 

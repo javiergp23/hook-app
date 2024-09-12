@@ -37,7 +37,6 @@ export const FormWithCustomHook = () => {
                 value={password}
                 onChange={onInputChange}
             />
-
             <button onClick={ onResetForm } className="btn btn-primary">Borrar</button>
         </>
     )

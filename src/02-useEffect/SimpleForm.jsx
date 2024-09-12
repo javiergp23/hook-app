@@ -52,7 +52,6 @@ export const SimpleForm = () => {
                 onChange={onInputChange}
             />
 
-
             {
                 (username === 'strider2') && <Message/>
             }
