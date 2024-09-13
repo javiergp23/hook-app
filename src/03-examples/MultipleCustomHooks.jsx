@@ -2,12 +2,16 @@ import { useFetch } from "../hooks"
 
 export const MultipleCustomHooks = () => {
 
-  useFetch();
+  const { data, isLoading, hasError } = useFetch();
 
   return (
     <>
       <h1>MultipleCustomHooks</h1>
-      <pre>Pokemon Info</pre>
+      <hr />
+
+      {isLoading && <p>Cargando...</p>}
+
+      <pre>{ data?.name}</pre>
     </>
   )
 }
