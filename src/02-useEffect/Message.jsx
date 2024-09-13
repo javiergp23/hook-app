@@ -9,7 +9,6 @@ export const Message = () => {
     });
     
     useEffect(() => {
-
         const onMouseMove = ({x, y}) => {
             // const coords = { x, y};
             setCoords({x, y});

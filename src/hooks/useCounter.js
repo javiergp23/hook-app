@@ -14,7 +14,6 @@ export const useCounter = ( initialValue = 1 ) => {
     const reset = () => {
         setCounter( initialValue )
     };
-
     
     return{
         counter,

@@ -23,8 +23,7 @@ export const useFetch = (url) => {
             error: null
         })
     }
-
-    //consumiendo la api con fetch
+    
     const getFetch = async() => {
 
       setLoadingState();
