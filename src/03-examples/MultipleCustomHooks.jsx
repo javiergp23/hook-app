@@ -1,4 +1,5 @@
 import { useCounter, useFetch } from "../hooks"
+import { LoadingMessage } from "../03-examples/LoadingMessage.jsx";
 
 export const MultipleCustomHooks = () => {
 
@@ -10,7 +11,7 @@ export const MultipleCustomHooks = () => {
       <h1>MultipleCustomHooks</h1>
       <hr />
 
-      {isLoading && <p>Cargando...</p>}
+      {isLoading && <LoadingMessage/>}
 
       <pre>{ data?.name}</pre>
 
