@@ -10,12 +10,12 @@ import { MultipleCustomHooks } from './03-examples/MultipleCustomHooks'
 
 createRoot(document.getElementById('root')).render(
   <>
-  {/* // <StrictMode> */}
+    {/* // <StrictMode> */}
     {/* <HooksApp /> */}
     {/* <CounterApp/> */}
     {/* <CounterCustomHook/> */}
     {/* <FormWithCustomHook/> */}
-  {/* </StrictMode>, */}
-  <MultipleCustomHooks/>
+    {/* </StrictMode>, */}
+    <MultipleCustomHooks/>
   </>
 )
