@@ -7,6 +7,7 @@ export const CounterApp = () => {
         counter3: 30,
         
     });
+    
     const {counter1, counter2, counter3} = state;
   return(
     <>
